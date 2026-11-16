@@ -12,7 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'build the HTML file'
-                sh 'ls-l'
+                sh 'ls -l'
             }
         }
      
